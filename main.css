@@ -7,7 +7,6 @@
 
 body {
     background-color: #ececec;
-    height: 100vh;
 }
 
 header .container {
@@ -42,12 +41,10 @@ a {
 h1 {
     color: #fff;
     margin-left: 30px;
-    justify-content: center;
 }
 
 h2 {
     margin-top: 20px;
-    display: block;
     color: #0384fc;
     font-weight: bold;
     font-size: 25px;
@@ -66,12 +63,7 @@ button {
     color: #fff;
 }
 
-#IMG {
-    height: 1200px;
-    width: 800px;
-}
-
-img  {
+ img  {
     margin: auto;
     width: 100%;
 }
@@ -92,22 +84,28 @@ h3 {
 
 .Segundo li {
     list-style: none;
-    display: block;
-    margin: auto;
     padding: 20px 10px;
 }
 
 @media screen and (min-width: 1024px) {
 
-.corpo {
-    padding: 50px 70px;
+.Primeiro div {
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
+.corpo {
+    padding: 0 300px ;
+}
 
 #IMG {
-    width: 30%;
-    height: 30%;
+    width: 480px ;
+    height: 300px;
+}
 
+.Primeiro {
+    display: flex;
+    justify-content: space-between;
 }
 
 .Segundo li {
@@ -117,7 +115,7 @@ h3 {
 
 }
 
-@media screen and (min-width: 642px) and (max-width: 1023px) and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width: 1023px) and (min-width: 641px) {
 
 .corpo {
     padding: 50px 70px;
